@@ -1,6 +1,4 @@
-I'll help you create a README file for the Petra AI repository. First, let me check if there's an existing README file and any other relevant content in the repository to ensure we're not overwriting anything.I see you want to create a README file for PetraAI. Since there isn't an existing README.md file, I'll help you create one. Here's a suggested template for your README:
 
-```markdown
 # PetraAI ReadTheDocs Template
 
 A template repository for PetraAI documentation using ReadTheDocs.
