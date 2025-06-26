@@ -1,86 +1,120 @@
+```restructuredtext
+PetraAI Documentation
+====================
 
-# PetraAI ReadTheDocs Template
+Welcome to PetraAI ReadTheDocs Template
+-------------------------------------
 
-A template repository for PetraAI documentation using ReadTheDocs.
+**PetraAI ReadTheDocs Template** is a standardized documentation template for PetraAI projects, designed to help teams create clear, consistent, and accessible documentation using ReadTheDocs.
 
-## Overview
+.. note::
 
-This repository serves as a template for creating documentation using ReadTheDocs for PetraAI projects. It provides a standardized structure and configuration for maintaining clear and accessible documentation.
+   This template is maintained by the PetraAI team and is under active development.
 
-## Getting Started
+Quick Start
+----------
 
-### Prerequisites
+To get started with this template:
 
-- Python 3.x
-- pip (Python package installer)
+.. code-block:: bash
 
-### Installation
+   git clone https://github.com/PetraAI/ReadTheDocs-Template.git
+   cd ReadTheDocs-Template
+   pip install -r requirements.txt
 
-1. Clone this repository:
-```bash
-git clone https://github.com/PetraAI/ReadTheDocs-Template.git
-```
+Documentation Structure
+---------------------
 
-2. Install the required dependencies:
-```bash
-pip install -r requirements.txt
-```
+The documentation is organized as follows:
 
-## Documentation Structure
+* ``docs/`` - Documentation root directory
+* ``docs/source/`` - Source files for the documentation
+* ``docs/build/`` - Built documentation files
+* ``docs/make.bat`` and ``docs/Makefile`` - Build scripts
 
-- `docs/` - Contains the documentation source files
-- `docs/source/` - Source files for the documentation
-- `docs/build/` - Built documentation files
-- `docs/make.bat` and `docs/Makefile` - Build scripts
-
-## Building the Documentation
+Building Documentation
+--------------------
 
 To build the documentation locally:
 
-1. Navigate to the docs directory:
-```bash
-cd docs
-```
+.. code-block:: bash
 
-2. Build the HTML documentation:
-```bash
-make html
-```
+   cd docs
+   make html
 
-The built documentation will be available in `docs/build/html/`.
+The built documentation will be available in ``docs/build/html/``.
 
-## Contributing
+Contributing
+-----------
+
+We welcome contributions! Here's how you can help:
 
 1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
+2. Create your feature branch:
+
+   .. code-block:: bash
+
+      git checkout -b feature/amazing-feature
+
+3. Commit your changes:
+
+   .. code-block:: bash
+
+      git commit -m 'Add some amazing feature'
+
+4. Push to the branch:
+
+   .. code-block:: bash
+
+      git push origin feature/amazing-feature
+
 5. Open a Pull Request
 
-## License
+Table of Contents
+---------------
 
-[Add your license information here]
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
 
-## Contact
+   installation
+   usage
+   configuration
+   api
+   contributing
+   changelog
 
-PetraAI Team - [Add contact information]
+Contact
+-------
 
-Project Link: https://github.com/PetraAI/ReadTheDocs-Template
+* **PetraAI Team** - [Add contact information]
+* **Project Link:** https://github.com/PetraAI/ReadTheDocs-Template
+
+Indices and Tables
+----------------
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
 ```
 
-This README template includes:
-1. Project title and brief description
-2. Setup instructions
+You'll also need to create the following additional RST files in the `docs/source` directory:
+
+1. `installation.rst` - Detailed installation instructions
+2. `usage.rst` - Usage examples and guidelines
+3. `configuration.rst` - Configuration options and settings
+4. `api.rst` - API documentation
+5. `contributing.rst` - Detailed contribution guidelines
+6. `changelog.rst` - Version history and changes
+
+
+The current version of index.rst file includes:
+1. Project overview
+2. Quick start guide
 3. Documentation structure
-4. Build instructions
-5. Contributing guidelines
-6. License and contact information
-
-Would you like me to modify any section of this README? You can customize it further by:
-1. Adding specific installation requirements
-2. Including more detailed usage instructions
-3. Adding badges (build status, version, etc.)
-4. Including example usage
-5. Adding more detailed contribution guidelines
-
-Let me know what changes you'd like to make!
+4. Building instructions
+5. Contribution guidelines
+6. Proper RST formatting with code blocks and notes
+7. Table of contents with suggested sections
+8. Contact information
+9. Standard Sphinx indices and tables
