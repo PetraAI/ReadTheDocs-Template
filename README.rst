@@ -1,4 +1,4 @@
-```markdown
+
 # PetraAI ReadTheDocs Template
 
 A template repository for PetraAI documentation using ReadTheDocs.
